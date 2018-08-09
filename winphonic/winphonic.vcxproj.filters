@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\about_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\img_label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\text_label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\trackbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\img_button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\text_button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\about_dialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\bass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\img_label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\text_label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\trackbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\img_button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\text_button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\winphonic.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\previous.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\minimize.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\close.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\previous.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\play.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\pause.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\stop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\next.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\open.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\playlist.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\shuffle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\repeat.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\circle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\shuffle-checked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\repeat-checked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\add.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\delete.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\up.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\down.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\logo_small.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\logo_full.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\add.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\circle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\close.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\delete.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\down.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\logo_small.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\minimize.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\next.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\open.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\pause.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\play.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\playlist.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\repeat.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\repeat_checked.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\shuffle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\shuffle_checked.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\stop.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\up.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

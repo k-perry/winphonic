@@ -1,0 +1,53 @@
+/******************************************************************************
+about_dialog.h - Header file for about_dialog.cpp
+*******************************************************************************
+Winphonic
+By Kevin Perry
+https://k-perry.github.io
+-------------------------------------------------------------------------------
+MIT License
+
+Copyright (c) 2018, Kevin Perry
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+******************************************************************************/
+
+
+#pragma once
+
+#include <Windows.h>
+#include <CommCtrl.h>
+#include <strsafe.h>
+
+#include "img_label.h"
+#include "text_button.h"
+#include "resource.h"
+#include "util.h"
+
+struct AboutDlgState {
+	HBRUSH bg_brush;
+	COLORREF bg_color;
+	COLORREF text_color;
+	COLORREF btn_normal_color;
+	COLORREF btn_hover_color;
+	COLORREF btn_pressed_color;
+};
+
+
+INT_PTR CALLBACK AboutDlgProc(HWND hwnd_dlg, UINT msg, WPARAM wParam, LPARAM lParam);
