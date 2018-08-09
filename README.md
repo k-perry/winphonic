@@ -76,4 +76,4 @@ I am not a professional C++ developer, and the code could undoubtedly use some i
 
 
 ## License
-Winphonic is licensed under the [MIT License](https://github.com/k-perry/winphonic/LICENSE.txt)
+Winphonic is licensed under the [MIT License](https://github.com/k-perry/winphonic/blob/master/LICENSE.txt)
